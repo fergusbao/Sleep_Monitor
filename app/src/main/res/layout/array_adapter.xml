@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TextViewList"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:shadowDx="4"
+    android:shadowDy="4"
+    android:shadowRadius="2"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20sp"
+    android:fontFamily="sans-serif-smallcaps"/>

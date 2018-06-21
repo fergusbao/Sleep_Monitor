@@ -1,4 +1,8 @@
-package edu.njit.junyi.sleep_monitor_v1.Record;
+package edu.njit.junyi.sleep_monitor_v1.model;
+
+import android.util.Log;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * Created by junyi on 3/20/18.
@@ -121,6 +125,7 @@ public class SoundCalculator {
     private double calculateMean(short[] buffer) {
         double mean = 0;
         for (short num : buffer) {
+//            Log.i(TAG, "calculateMean: " + num);
             mean += num;
         }
         return mean / buffer.length;
